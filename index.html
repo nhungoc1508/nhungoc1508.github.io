@@ -20,24 +20,24 @@
     <link rel="stylesheet" href="css/custom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap" rel="stylesheet">
 
     <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/icon.png">
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
 
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
     <script src="https://kit.fontawesome.com/e2ad96e65a.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <div class="sidebar">
         <div class="container sidebar-sticky">
             <div class="sidebar-about">
-                <h1>Ngoc Nhu Hoang</h1>
-                <p class="lead">/ŋawk ɲɨ hwaːŋ/</p>
+                <h1 id="page-title">Ngoc Nhu Hoang</h1>
+                <p class="lead" id="page-subtitle">/ŋawk ɲɨ hwaːŋ/</p>
             </div>
 
             <nav class="sidebar-nav">
@@ -59,13 +59,18 @@
     </div>
 
     <div class="content container">
-        <h2>👋 Hello, world!</h2>
+        <!-- <h2>👋 Hello, world!</h2> -->
+        <div class="section-title">
+            <h2>Hello, world!</h2>
+        </div>
         <p>I’m a recent graduate (class of 2023) from <a href="https://nyuad.nyu.edu/en/" target="_blank"
                 rel="noopener noreferrer">New York University Abu Dhabi</a>, where I obtained a Bachelor of Science in
             Computer Science with minors in Applied Mathematics and Interactive Media. My undergraduate coursework and
             research experiences explored a wide range of topics in computer science but focused largely on machine
             learning and big data.</p>
-        <h2>Academic research</h2>
+        <div class="section-title">
+            <h2>Academic research</h2>
+        </div>
         <p>My first research assistantship was conducted in 2021 at NYU Abu Dhabi’s <a
                 href="https://nyuad.nyu.edu/en/research/research-institute-centers/center-for-global-sea-level-change.html"
                 target="_blank" rel="noopener noreferrer">Center for Global Sea Level Change</a> where I worked on
@@ -93,10 +98,14 @@
                 rel="noopener noreferrer">Center for Quantum and Topological Systems</a> studying the use of the
             dependently typed programming language Agda in formalizing braid groups as automorphisms of the free
             groups.</p>
-        <h2>Industry experiences</h2>
+        <div class="section-title">    
+            <h2>Industry experiences</h2>
+        </div>
         <p>In early 2023, I worked at <a href="https://wio.io/" target="_blank" rel="noopener noreferrer">Wio Bank</a>
             (Abu Dhabi, UAE) as an application security intern.</p>
-        <h2>Publications & hackathons</h2>
+        <div class="section-title">
+            <h2>Publications & hackathons</h2>
+        </div>
         <ul class="custom-list">
             <li>
                 <div><a href="https://ieeexplore.ieee.org/document/10002170" target="_blank" rel="noopener noreferrer">A
@@ -118,7 +127,9 @@
                         target="_blank" rel="noopener noreferrer">press coverage</a>]</span>
             </li>
         </ul>
-        <h2>An assortment of projects</h2>
+        <div class="section-title">
+            <h2>An assortment of projects</h2>
+        </div>
         <ul class="custom-list">
             <li>
                 <h4>Diffusing Bohemian Rhapsody</h4>
@@ -234,7 +245,9 @@
                         rel="noopener noreferrer">repo</a>]</span>
             </li>
         </ul>
-        <h2>Personal</h2>
+        <div class="section-title">
+            <h2>Personal</h2>
+        </div>
         <p>I come from Quảng Trị Province in central Vietnam. I also spent three years in Hồ Chí Minh City for high
             school. During my undergraduate years, I have lived in Abu Dhabi, New York, and London.</p>
         <p>I dabble in the arts and generally anything and everything that fascinates me. I enjoy playing the flute,

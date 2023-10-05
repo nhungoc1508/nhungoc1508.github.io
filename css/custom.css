@@ -14,3 +14,23 @@
 #nav-icons a + a{
     padding-left: 0.5rem;
 }
+
+h2 {
+    display: inline;
+    background: -webkit-linear-gradient(0deg, #466a84, #75a0a9, #e1e1d3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-title {
+    padding-bottom: 0.3rem;
+}
+
+#page-title-alt {
+    opacity: 0;
+    /* display: none; */
+}
+
+#page-title, #page-title-alt {
+    transition: 0.2s;
+}
