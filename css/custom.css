@@ -1,0 +1,16 @@
+.custom-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.custom-list li + li {
+    margin-top: 1rem;
+}
+
+.outer-tags {
+    font-size: medium;
+}
+
+#nav-icons a + a{
+    padding-left: 0.5rem;
+}
