@@ -11,7 +11,7 @@
     font-size: medium;
 }
 
-#nav-icons a + a{
+#nav-icons a + a {
     padding-left: 0.5rem;
 }
 
@@ -20,6 +20,7 @@ h2 {
     background: -webkit-linear-gradient(0deg, #466a84, #75a0a9, #e1e1d3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 700;
 }
 
 .section-title {
