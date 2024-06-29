@@ -7,8 +7,32 @@
     margin-top: 1rem;
 }
 
+.custom-list li div {
+    margin-top: 0.5rem;
+}
+
 .outer-tags {
     font-size: medium;
+}
+
+.custom-btn-year {
+    color: white;
+    background-color: #466a84;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.custom-btn-type {
+    color: white;
+    background-color: #8bd0dd;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.custom-btn-misc {
+    background-color: #f0e5c4;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #nav-icons a + a {
@@ -34,4 +58,43 @@ h2 {
 
 #page-title, #page-title-alt {
     transition: 0.2s;
+}
+
+#page-subtitle {
+    font-family: Arial, Helvetica, sans-serif!important;
+}
+
+.collapsible {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+.collapse-content {
+    font-size: medium;
+}
+  
+.active, .collapsible:hover {
+    /* background-color: #ccc; */
+}
+  
+.collapse-content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    margin-left: 5px;
+}
+  
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
