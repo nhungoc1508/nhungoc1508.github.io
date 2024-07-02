@@ -1,3 +1,13 @@
+#page-title {
+    transition: opacity display 0.2s ease-out;
+}
+
+#page-title-alt {
+    transition: opacity display 0.2s ease-out;
+    display: none;
+    opacity: 0;
+}
+
 .custom-list {
     list-style: none;
     padding-left: 0;
