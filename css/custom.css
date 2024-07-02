@@ -8,6 +8,12 @@
     opacity: 0;
 }
 
+a:hover {
+    color: #8bd0dd;
+    text-decoration: none!important;
+    transition: color 0.2s;
+}
+
 .custom-list {
     list-style: none;
     padding-left: 0;
