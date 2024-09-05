@@ -120,3 +120,20 @@ h2 {
     font-size: small;
     font-style: italic;
 }
+
+.column-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.column {
+
+}
+
+#portrait {
+    margin-left: 15px;
+    background-image: url("../assets/portrait.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
