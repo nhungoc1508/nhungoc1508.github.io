@@ -29,6 +29,7 @@ a:hover {
 
 .outer-tags {
     font-size: medium;
+    margin-bottom: 0.5rem;
 }
 
 .custom-btn-year {
@@ -64,6 +65,7 @@ h2 {
 }
 
 .section-title {
+    margin-top: 1rem;
     padding-bottom: 0.3rem;
 }
 
