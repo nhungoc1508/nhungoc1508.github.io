@@ -96,6 +96,9 @@ h2 {
   
 .active, .collapsible:hover {
     /* background-color: #ccc; */
+    color: #8bd0dd;
+    text-decoration: none!important;
+    transition: color 0.2s;
 }
   
 .collapse-content {
@@ -146,4 +149,12 @@ h2 {
 
 .school {
     font-size: 18px;
+}
+
+.project-group {
+    margin-bottom: 10px;
+}
+
+.project-group .collapsible {
+    font-weight: bold;
 }
