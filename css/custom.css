@@ -109,6 +109,10 @@ h2 {
     transition: max-height 0.2s ease-out;
 }
 
+.collapse-content h5 {
+    font-size: medium;
+}
+
 .collapsible:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
