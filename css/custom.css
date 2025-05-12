@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #page-title {
     transition: opacity display 0.2s ease-out;
 }
@@ -30,6 +34,10 @@ a:hover {
 .outer-tags {
     font-size: medium;
     margin-bottom: 0.5rem;
+}
+
+.after-tags {
+    font-size: medium;
 }
 
 .custom-btn-year {
