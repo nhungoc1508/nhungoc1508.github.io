@@ -61,6 +61,7 @@ html {
   /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("../img/desert.JPG"); */
   background-image: url("../img/desert.JPG");
   background-image: url("../img/marseille.JPG");
+  background-image: linear-gradient(to top, rgb(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url("../img/dolomites.JPG");
   background-size: 100% auto;
   background-position: center;
   background-color: #202020;
