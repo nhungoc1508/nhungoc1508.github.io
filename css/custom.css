@@ -68,6 +68,7 @@ h2 {
     display: inline;
     background: -webkit-linear-gradient(0deg, #466a84, #75a0a9, #e1e1d3);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
 }
@@ -143,10 +144,6 @@ h2 {
     grid-template-columns: 1.5fr 1fr;
 }
 
-.column {
-
-}
-
 #portrait {
     margin-left: 15px;
     background-image: url("../assets/portrait.JPG");
@@ -169,4 +166,60 @@ h2 {
 
 .project-group .collapsible {
     font-weight: bold;
+}
+
+/* Full-width map below the main column: sidebar stops before the map.
+   Match Hyde exactly: gap after 22rem sidebar = margin-left − 22rem;
+   right inset = .content margin-right from hyde.css */
+@media (min-width: 48em) {
+    body.home-layout .home-top {
+        display: grid;
+        grid-template-columns: 22rem 1fr;
+        /* Same as hyde: margin-left 24rem → 2rem after sidebar */
+        column-gap: 2rem;
+        min-height: 100vh;
+        box-sizing: border-box;
+    }
+
+    /* Override Hyde's fixed sidebar (so it can't overlap the map section) */
+    body.home-layout .home-top .sidebar {
+        position: sticky;
+        top: 0;
+        bottom: auto;
+        left: auto;
+        width: 22rem;
+        height: 100vh;
+        max-height: 100vh;
+        align-self: start;
+    }
+
+    /* Drop only the left offset (grid replaces it); keep original right margin */
+    body.home-layout .home-top .content {
+        margin-left: 0;
+        margin-right: 2rem;
+        min-width: 0;
+    }
+}
+
+@media (min-width: 64em) {
+    body.home-layout .home-top {
+        /* Same as hyde: margin-left 26rem → 4rem after sidebar */
+        column-gap: 4rem;
+    }
+
+    body.home-layout .home-top .content {
+        margin-right: 4rem;
+    }
+}
+
+body.home-layout .map-strip {
+    width: 100%;
+    line-height: 0;
+}
+
+body.home-layout .map-strip iframe {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    border: 0;
 }
